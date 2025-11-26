@@ -3,6 +3,7 @@ title: Bridging Data to Deep Learning From Pandas DataFrame to TensorFlow Tensor
 layout: post
 # post-image: https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/How%20to%20install%20and%20use%20WhatATheme.png?token=AHMQUEPHRKQFL5FS624RDJ26Z64RDJ26Z64HK
 description: 파이썬을 배우고 Pandas DataFrame으로 정리한 데이터를 딥러닝 모델이 효율적으로 '학습'할 수 있도록 TensorFlow Tensor 형태로 전환하는 필수 과정을 작성해봤습니다. 
+date: 2025-11-26 # 이 줄을 추가하여 목록 페이지 날짜를 현재로 설정합니다.
 tags:
 - deep learning for beginners
 - python
