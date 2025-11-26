@@ -6,7 +6,7 @@
 - name: Second Project
   link:
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: Bridging Data to Deep Learning: From Pandas DataFrame to TensorFlow Tensor
+  description: "Bridging Data to Deep Learning From Pandas DataFrame to TensorFlow Tensor"
 
 - name: Third Project
   link:
