@@ -1,72 +1,68 @@
----
-title: How to Install and use WhatATheme?
+----
+title: Bridging Data to Deep Learning From Pandas DataFrame to TensorFlow Tensor
 layout: post
-post-image: https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/How%20to%20install%20and%20use%20WhatATheme.png?token=AHMQUEPHRKQFL5FS624RDJ26Z64HK
-description: This post will guide you to install WhatATheme on your Jekyll site, follow
-  the easy steps to set up WhatATheme.
+date: 2025-11-23 # 2025년 11월 23일로 설정
+description: 파이썬을 배우고  Pandas DataFrame으로 정리한 데이터를 딥러닝 모델이 효율적으로 '학습'할 수 있도록 TensorFlow Tensor 형태로 전환하는 필수 과정을 작성해봤습니다.  
 tags:
-- how to
-- setup
-- theme
+- deep learning for beginners
+- python
+- pandas
+- tensorflow
 ---
 
-# What is WhatATheme?
->You’ll find this post in your ***_posts*** directory. Go ahead and edit it and re-build the site to see your changes. >You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# 🌉 데이터 준비의 첫걸음: Pandas DataFrame을 TensorFlow Tensor로
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VfPa2c9kwhQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+많은 빅데이터를 인공지능 모델에 최대한 정확하게 집어넣기 제가 공부한 내용을 정리해봈습니다. 
 
----
-
-**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio which includes
-
-### Home Page -
-* A Hero section - A section where you can outsource an image which will work as the background for the particular section; it also will include your name and a tagline which can be easily manipulated via the _config.yml file.
-* An About section - A section where you can include your image and a 60 word paragraph which again you can easily manipulate using the _config.yml file.
-* A Contact section - A section where you can include 3 direct ways to contact<br>
-`Ping on Messenger`<br>
-`Send an Email`<br>
-`Tweet on Twitter`<br>
-The contact section will also include 10 different social media buttons for your audience to follow.<br>
-`Facebook`, `Twitter`, `Instagram`, `LinkedIn`, `GitHub`, `YouTube`, `Reddit`, `Behance`, `Dribbble` & `Spotify`.
-
-### Blog -
-The blog includes a horizontal card list where the latest articles are fetched from the _posts folder automatically in top-down format. It also includes an instant search box which matches your query from the title, description & content of your post and shows the result as soon as you type.<br>
-The blog card includes
-* Post Title
-* 300 words from the content of the post
-* The publish date
-* The time which will be required to read the post.
-
-### Projects -
-The Projects page will include all the projects from the **`projects.yml`** file which is present in the _data folder.<br>
-Projects will be showcased in a card-list format where each card will contain
-* An image related to the project
-* A Project Title
-* A Project Description of about 80 words
-
-### Footer -
-The footer includes
-* A small about the author widget which show the same `Author Image` as mentioned in the about section of the Home page which includes `Name of the Author`, `Around 75 words about the author`.
-* A more link widget which includes a link to any extra page that you've created and a `Subscribe via RSS` link.
-* A Recent posts widget which will include latest 3 posts.
-
-#### Extra Features -
-WhatATheme comes pre installed with
-* **HTML Compressor** - It'll compress all the pages by removing any extra space or blank lines.
-* **Google Analytics** - A web analytics service offered by Google that tracks and reports website traffic. For more information [click here](https://analytics.google.com){:target="blank"}.
-* **Disqus** - A worldwide blog comment hosting service for web sites and online communities that use a networked platform. For more information about Disqus [click here](https://help.disqus.com/en/articles/1717053-what-is-disqus){:target="blank"}
-
-	##### For more information about WhatATheme [click here](https://github.com/thedevslot/WhatATheme/blob/gh-pages/README.md){:target="blank"}.
+수업에서 파이썬으로 데이터를 분석할 때 사용하는 **Pandas DataFrame** 형태의 데이터를 모델이 이해할 수 있는 **TensorFlow Tensor** 형태로 바꾸는 '다리 놓기(Bridging)' 과정을 작성하고자 합니다. 
 
 ---
 
-# Installation
-### Step 1 - Setting up WhatATheme
-> * Fork the [repository](https://github.com/thedevslot/WhatATheme/tree/master){:target="blankl"}
-> * Go to repository settings and set Github Pages source as master.
-> * Your new site should be ready at [https://username.github.io/WhatATheme/](#){:target="blank"}
+**TensorFlow**는 데이터를 텐서(Tensor)라는 특별한 구조로 처리해야 합니다. 이 과정은 딥러닝 모델이 데이터를 효율적으로 '학습'하는 데 결정적인 역할을 합니다.
 
-### Step 2 - Making changes via **_config.yml**
-> * Open _config.yml file
-> * Fill the available details accordingly
-> * Commit the changes
+### 1-1. DataFrame과 Tensor의 차이
+* **Pandas DataFrame:** 행과 열에 이름이 붙어있고, 문자열, 날짜 등 다양한 데이터 타입을 포함합니다. (사람에게 친숙)
+* **TensorFlow Tensor:** 오직 숫자(float, int)만 들어있는 다차원 배열입니다. (컴퓨터/모델에 친숙)
+* **목표:** Pandas에서 데이터를 정제하여 모델이 학습할 수 있는 **순수한 숫자 텐서**로 변환하는 것입니다.
+
+### 2. 🧹 Pandas를 이용한 데이터 정제 
+데이터 브릿지 작업의 90%는 여기서 끝납니다. 모델에 넣기 전에 데이터를 깨끗하게 만들어야 합니다. 아래의 단계를 반드시 거쳐야 합니다.
+
+* **결측치 및 문자열 처리:** Pandas를 사용하여 데이터에 있는 **결측치**(`NaN`)를 제거하거나 평균값으로 채우고, 문자열은 **One-Hot Encoding** 등을 사용해 숫자로 변환합니다.
+* **특성 스케일링 (Scaling):** 데이터의 크기가 클 때 모델이 불안정해질 수 있습니다. 모든 숫자 데이터를 **0과 1 사이** 또는 **평균 0, 분산 1**이 되도록 조정하는 스케일링 작업이 필수적입니다.
+
+### 3. 🌉 NumPy를 거쳐 TensorFlow Tensor로 최종 변환
+데이터 정제가 끝났다면, 이제 DataFrame을 NumPy 배열로 변환하는 '중간 다리'를 거쳐 TensorFlow Tensor로 최종 변환합니다. 이 과정이 모델에 데이터를 넣는 마지막 단계입니다.
+
+* **NumPy 배열로 변환:** DataFrame을 `.values` 속성을 이용해 NumPy 배열로 쉽게 변환합니다. 이는 딥러닝 모델이 이해할 수 있는 순수한 숫자 형태입니다.
+* **TensorFlow Tensor로 변환:** `tf.convert_to_tensor` 함수를 사용하여 NumPy 배열을 `tf.Tensor` 객체로 변환합니다. 이때 데이터 타입은 보통 **`tf.float32`**로 지정합니다.
+* **핵심 코드:** 아래 예시를 참고하여 특성 데이터(X)와 레이블(y)을 텐서로 만들어 보세요.
+
+### 4. 💡 전체 브리징 과정 요약
+성공적인 딥러닝 학습은 데이터 준비에 달려 있습니다. 이 3단계를 통해 데이터 브릿지를 완성하고, 이제 여러분이 배운 파이썬 지식을 활용하여 딥러닝 모델의 `fit()` 함수에 텐서를 바로 넣어 학습을 시작할 수 있습니다!
+
+* **단계 1:** Pandas (데이터 정제 및 구조화)
+* **단계 2:** NumPy (중간 숫자 배열 형태)
+* **단계 3:** TensorFlow Tensor (모델 학습에 최적화된 최종 형태)
+
+#### 📝 참고 코드 (Pandas & TensorFlow)
+```python
+import pandas as pd
+import tensorflow as tf
+import numpy as np
+
+# 1. 데이터 불러오기 (가정)
+df = pd.read_csv('your_data.csv')
+
+# 2. 정제 (예: 결측치 0 채우기, target 분리)
+df = df.fillna(0)
+X_data = df.drop('target', axis=1).values 
+y_label = df['target'].values
+
+# 3. 텐서로 최종 변환
+X_tensor = tf.convert_to_tensor(X_data, dtype=tf.float32)
+y_tensor = tf.convert_to_tensor(y_label, dtype=tf.float32)
+
+print(f"X 텐서 형태: {X_tensor.shape}")
+print(f"Y 텐서 타입: {y_tensor.dtype}")
+# 이제 이 텐서를 모델.fit()에 사용합니다!
