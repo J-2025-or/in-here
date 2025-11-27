@@ -1,5 +1,5 @@
 ---
-title: Big Data Collection Strategies for HCL Models 
+title: Big Data Collection Strategies for HCL Models (Third Project)
 layout: post
 # post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/What%20is%20Jekyll%20and%20How%20to%20use%20it.png?token=AHMQUELVG36IDSA4SZEZ5P26Z64IW"
 description: 인간 중심 학습(HCL) 모델의 성능을 결정하는 핵심 요소인 빅데이터 수집 전략과 윤리적, 기술적 고려 사항을 탐구합니다.
