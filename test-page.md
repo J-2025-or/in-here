@@ -1,41 +1,40 @@
 ---
-title: I am 
+title:  My Python Core Competencies
 layout: page
 ---
 
-## 1. 헤딩 계층 구조
-# This is heading 1
-## This is heading 2
-### This is heading 3
-#### This is heading 4
-##### This is heading 5
-###### This is heading 6
+## 1. Python Language Structure
+# CORE PYTHON STRUCTURE
+## DATA SCIENCE PACKAGES
+### BUILT-IN FUNCTIONS
+#### KEYWORDS & STATEMENTS
+##### DATA TYPES
+###### ADVANCED CONCEPTS
 
 ---
-## 2. 링크 및 코드 표시
+## 2.  python?
 
-[This is a link](#)
+[PYTHON DOCUMENTATION](#)
 
-`This is code`
-
----
-## 3. 블록 인용 (Blockquotes)
-
-> This is a blockquote
-
-> 이것은 블록인용입니다
+`import pandas as pd`
 
 ---
-## 4. 목록 구조
+## 3. python?
+> Python is the preferred language for Data Science.
 
-### Bullet List (순서 없는 목록)
-* Item 1
-* Item 2
-* Item 3
-* Item 4
+> It is the most powerful big data tool  
 
-### Number List (순서 있는 목록)
-1. Item 1
-2. Item 2
-3. Item 3
-4. Item 4
+---
+## 4. Primary Toolset Overview
+
+### package
+* **pandas**
+* **numpy**
+* **tensorflow**
+* **scikit-learn**
+
+### Built-in Functions
+1. **print()**
+2. **len()**
+3. **type()**
+4. **range()**
