@@ -1,29 +1,29 @@
 ---
-title: Test Page
+title: I am 
 layout: page
 ---
 
-# This is heading 1
-## This is heading 2
-### This is heading 3
-#### This is heading 4
-##### This is heading 5
-###### This is heading 6
+# Python Development Environment and Modules
+## Core Data Processing Classes
+### Function and Method Definitions
+#### Control Structures and Logical Operators
+##### Variables and Data Types
+###### Exception Handling Statements
 
-[This is a link](#)
+> ***SEOUL CYBER UNIVERSITY: COMPUTER SCIENCE (CURRENTLY ENROLLED)***
 
-> This is a blockquote
 
-`This is code`
 
-### Bullet List
-* Item 1
-* Item 2
-* Item 3
-* Item 4
+`#  Main Function Structure`
 
-### Number List
-1. Item 1
-2. Item 2
-3. Item 3
-4. Item 4
+### Key Module Imports and Class Declarations
+* **import tensorflow as tf**
+* **from sklearn.preprocessing import StandardScaler**
+* **class HCLModel(object):**
+* **threading.Thread**
+
+### Essential Function and Method Calls
+1. **pd.DataFrame({'A': [1, 2]})**
+2. **df.apply(lambda x: x * 2)**
+3. **model.fit(X_train, y_train, epochs=10)**
+4. **print("Data Processing Complete")**
