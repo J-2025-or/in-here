@@ -1,5 +1,5 @@
 ---
-title: AI and Empathy A Primer on Big Data-Based Human-Centered Learning (HCL-second Project)
+title: (HCL-second Project)AI and Empathy A Primer on Big Data-Based Human-Centered Learning 
 layout: post
 # post-image 필드는 레이아웃 수정으로 인해 더 이상 표시되지 않습니다. 
 # post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUEPC4IFADOF5VG4QVN26Z64GG"
