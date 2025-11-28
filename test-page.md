@@ -1,40 +1,19 @@
 ---
-title:  My Python Core Competencies
+title:  SKILLS
 layout: page
 ---
 
-## 1. Python Language Structure
-# CORE PYTHON STRUCTURE
-## DATA SCIENCE PACKAGES
-### BUILT-IN FUNCTIONS
-#### KEYWORDS & STATEMENTS
-##### DATA TYPES
-###### ADVANCED CONCEPTS
+# 🎓 **ACADEMIC BACKGROUND**
+
+**I AM CURRENTLY A THIRD-YEAR UNDERGRADUATE STUDENT MAJORING IN COMPUTER SCIENCE AT SEOUL CYBER UNIVERSITY. I AM DEDICATED TO MASTERING MODERN SOFTWARE DEVELOPMENT AND DATA SCIENCE PRINCIPLES.**
 
 ---
-## 2.  python?
 
-[PYTHON DOCUMENTATION](#)
+## 🛠️ **CORE TECHNOLOGY STACK**
 
-`import pandas as pd`
-
----
-## 3. python?
-> Python is the preferred language for Data Science.
-
-> It is the most powerful big data tool  
-
----
-## 4. Primary Toolset Overview
-
-### package
-* **pandas**
-* **numpy**
-* **tensorflow**
-* **scikit-learn**
-
-### Built-in Functions
-1. **print()**
-2. **len()**
-3. **type()**
-4. **range()**
+| **SKILL** | **PROFICIENCY** | **LEVEL** |
+| :---: | :---: | :---: |
+| **🐍 PYTHON** | **███████░░░ (70%)** | **PROFICIENT** |
+| **💾 SQL** | **███████░░░ (70%)** | **PROFICIENT** |
+| **🛠️ C LANGUAGE** | **███████░░░ (70%)** | **PROFICIENT** |
+| **🎯 C#** | **███████░░░ (70%)** | **PROFICIENT** |
