@@ -77,7 +77,8 @@ a.navbar-item.is-active {
     letter-spacing: 0.25rem;
 }
 
-#about {
+#about {/* Hero 섹션의 가장 연한 부분(#93c47d)보다 더 연한 색상으로 지정 */
+    background-color: #d6eadf;
     .image {
         max-width: 20vmax;
         margin: auto;
