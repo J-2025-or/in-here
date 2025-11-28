@@ -13,7 +13,7 @@ layout: page
 
 | **SKILL** | **PROFICIENCY** | **LEVEL** |
 | :---: | :---: | :---: |
-| **🐍 PYTHON** | **███████░░░ (70%)** | **PROFICIENT** |
+| **📊 PYTHON** | **███████░░░ (70%)** | **PROFICIENT** |
 | **💾 SQL** | **███████░░░ (70%)** | **PROFICIENT** |
 | **🛠️ C LANGUAGE** | **███████░░░ (70%)** | **PROFICIENT** |
-| **🎯 C#** | **███████░░░ (70%)** | **PROFICIENT** |
+| **💠 C#** | **███████░░░ (70%)** | **PROFICIENT** |
