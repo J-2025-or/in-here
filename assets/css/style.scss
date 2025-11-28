@@ -5,6 +5,7 @@
 
 #navbar {
     opacity: 0.95;
+    background-color: #1e8449 !important; 
 }
 
 .is-active {
@@ -39,12 +40,15 @@ a.navbar-item.is-active {
 
 
 #hero {
-    background: rgb(0, 0, 0);
-    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
-
+    /* 중간 초록색 그라데이션 적용: 진한 초록빛에서 연한 초록빛으로 */
+    background: #38761d;
+    background: -moz-linear-gradient(0deg, rgba(56, 118, 29, 1) 0%, rgba(147, 196, 125, 0.75) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(56, 118, 29, 1) 0%, rgba(147, 196, 125, 0.75) 100%);
+    background: linear-gradient(0deg, rgba(56, 118, 29, 1) 0%, rgba(147, 196, 125, 0.75) 100%);
+    /* IE 호환성 코드는 유지 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#38761d", endColorstr="#93c47d", GradientType=1);
+    
+    /* 기존의 배경 이미지 오버레이 기능 복원 */
     &::before {
         filter: blur(0.15rem);
         background-image: url({{site.heroimage}});
