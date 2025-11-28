@@ -59,9 +59,10 @@ X_data = df.drop('target', axis=1).values
 y_label = df['target'].values```
 
 # 3. Final Conversion to Tensor
-```X_tensor = tf.convert_to_tensor(X_data, dtype=tf.float32)
+X_tensor = tf.convert_to_tensor(X_data, dtype=tf.float32)
 y_tensor = tf.convert_to_tensor(y_label, dtype=tf.float32)
 
 print(f"X Tensor Shape: {X_tensor.shape}")
-print(f"Y Tensor Dtype: {y_tensor.dtype}")```
+print(f"Y Tensor Dtype: {y_tensor.dtype}")
+
 # Now, use these Tensors in model.fit()!
