@@ -45,7 +45,7 @@ author-name: JI MIN CHEON
 # URL for the Image of the Author
 author-image: /assets/images/my-photo.png
 # 60 Words About the Author
-author-about: "Currently enrolled in Computer Science at Seoul Cyber University.<br>I have a deep interest in Artificial Intelligence (AI), utilizing skills in Python, HCL, and Data Analysis.<br>Thank you for your interest in my studies and reviewing my thoughts."
+author-about: "I am currently an undergraduate student majoring in Computer Science at Seoul Cyber University.<br>Academically, I was honored with the Excellent Paper Award from the Korean Society for Defense Science and Technology and presented the corresponding paper.<br>I am currently leveraging the in-depth knowledge gained from my coursework—including AI, Big Data, and Human-Centered Learning (HCL)—to develop the content of that paper into a practically implementable project. My learning journey and technical considerations can be explored here."
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 # author-url: https://github.com/JI-MIN-CHEON-Profile # 실제 GitHub 주소로 변경해주세요!
 # SASS
