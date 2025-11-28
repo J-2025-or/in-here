@@ -207,8 +207,8 @@ a.navbar-item.is-active {
     }
 }
 
-
 #footer {
+    background-color: #1e8449 !important; // 메뉴바 및 Hero 섹션 색상과 동일
     #backtotop {
         transition: all 0.25s ease;
         width: 10rem;
@@ -217,9 +217,8 @@ a.navbar-item.is-active {
 
         &:hover {
             transform: scale(1.05);
-        }
+        }    
     }
-
     .container {
         margin: auto;
         padding: 1.5rem;
