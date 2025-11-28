@@ -63,5 +63,5 @@ y_label = df['target'].values```
 y_tensor = tf.convert_to_tensor(y_label, dtype=tf.float32)
 
 print(f"X Tensor Shape: {X_tensor.shape}")
-print(f"Y Tensor Dtype: {y_tensor.dtype}")
-# Now, use these Tensors in model.fit()!```
+print(f"Y Tensor Dtype: {y_tensor.dtype}")```
+# Now, use these Tensors in model.fit()!
