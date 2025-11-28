@@ -46,20 +46,20 @@ Successful deep learning training depends on data preparation. Complete the data
 
 #### 📝 Reference Code (Pandas & TensorFlow)
 python
-```import pandas as pd
+import pandas as pd
 import tensorflow as tf
 import numpy as np
-```
+
 # 1. Load Data (Assumption)
-```df = pd.read_csv('your_data.csv')
-```
+```df = pd.read_csv('your_data.csv')```
+
 # 2. Clean/Process Data (e.g., fill missing values with 0, separate target)
 ```df = df.fillna(0)
 X_data = df.drop('target', axis=1).values 
-y_label = df['target'].values
-```
+y_label = df['target'].values```
+
 # 3. Final Conversion to Tensor
-```X_tensor``` = tf.convert_to_tensor(X_data, dtype=tf.float32)
+```X_tensor = tf.convert_to_tensor(X_data, dtype=tf.float32)
 y_tensor = tf.convert_to_tensor(y_label, dtype=tf.float32)
 
 print(f"X Tensor Shape: {X_tensor.shape}")
