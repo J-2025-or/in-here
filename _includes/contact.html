@@ -8,9 +8,12 @@
                 <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
             </a>
             {% endunless %}
-           <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless has-text-centered">
-                hello@example.com
-            </h3>
+            <div class="column is-full is-paddingless">
+                <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless has-text-centered">
+                    hello@example.com
+                </h3>  
+            </div>    
+            
             {% unless site.twitter_username == %}
             <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"

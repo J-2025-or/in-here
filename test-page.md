@@ -9,7 +9,7 @@ layout: page
 
 ---
 
-## 🛠️ **CORE TECHNOLOGY STACK**
+## **CORE TECHNOLOGY STACK**
 
 | **SKILL** | **PROFICIENCY** | **LEVEL** |
 | :---: | :---: | :---: |
