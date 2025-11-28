@@ -8,6 +8,11 @@
     background-color: #1e8449 !important; 
 }
 
+/* 👇 이 부분이 추가되었습니다: 메뉴 아이템 영역과 로고 영역에 배경색 강제 적용 */
+.navbar-menu, .navbar-brand {
+    background-color: #1e8449 !important;
+}
+
 .is-active {
     font-weight: 600;
 }
