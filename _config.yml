@@ -7,9 +7,9 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: 여기는 나의 저장소입ㄴ다. 
+title: Here is my place for Portfolio 
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: This portfolio documents the exploration and knowledge I have gained through my coursework.
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -22,17 +22,17 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: hello@example.com
+# facebook_username: thedevslot
+# twitter_username: thedevslot
+# instagram_username: thedevslot
+# linkedin_username: thedevslot
+# github_username:  thedevslot
+# youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
 
 # Google Analytics
 google-analytics: UA-163806439-1
@@ -43,11 +43,11 @@ disqus-shortname: thedevslot
 # Name of the Author
 author-name: JI MIN CHEON
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+# author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
 author-about: "Currently enrolled in Computer Science at Seoul Cyber University.<br>I have a deep interest in Artificial Intelligence (AI), utilizing skills in Python, HCL, and Data Analysis.<br>Thank you for your interest in my studies and reviewing my thoughts."
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/JI-MIN-CHEON-Profile # 실제 GitHub 주소로 변경해주세요!
+# author-url: https://github.com/JI-MIN-CHEON-Profile # 실제 GitHub 주소로 변경해주세요!
 # SASS
 sass:
   sass_dir: _sass
