@@ -209,7 +209,7 @@ a.navbar-item.is-active {
 
 #footer {
     /* 푸터 전체 배경색 설정 (반드시 중괄호 안에 있어야 합니다) */
-    background-color: #222 !important;
+    background-color: #f5f4f4 !important;
     
     #backtotop {
         transition: all 0.25s ease;
@@ -217,17 +217,25 @@ a.navbar-item.is-active {
         padding: 0.25rem;
         margin: auto auto 1rem auto;
         
-        /* BACK TO TOP 버튼 스타일 복구: 흰색 바탕, 검은색 테두리/글자 */
-        background-color: white !important; 
-        color: black !important;
-        border: 1px solid black !important;
+        /* 🟢 버튼 배경색을 검은색으로 설정 (이미지 c53814.png 반영) */
+        background-color: #333 !important; 
+        
+        /* 🟢 버튼 글자색을 흰색으로 설정 (이미지 c53814.png 반영) */
+        color: white !important;
+        
+        /* 🟢 테두리 완전히 제거 (이미지처럼 테두리 없는 깔끔한 박스) */
+        border: none !important;
         
         &:hover {
             transform: scale(1.05);
         }    
     }
     .container {
-        margin: auto;
+        /* 🟢 문제 해결: 너비를 100%로 강제 확장하여 양옆 여백 없애기 */
+        width: 100% !important; 
+        max-width: none !important; /* Bulma의 max-width 제한 해제 */
+        margin: 0 !important; /* 마진 제거 */
+        
         padding: 1.5rem;
         line-height: 1.25;
 
@@ -235,21 +243,21 @@ a.navbar-item.is-active {
         background-color: #1e8449 !important;
         /* 🟢 컨테이너 기본 텍스트 색상을 흰색으로 강제 설정 */
         color: white !important;
-        
+
         .column {
             display: grid;
             justify-content: center;
 
-            li {
-                list-style: circle;
-                list-style-position: outside;
+           /* 🟢 모든 텍스트 요소 (제목, 단락, 목록 항목)를 흰색으로 강제 적용 */
+            .title, .subtitle, p, h1, h2, h3, h4, h5, h6, li {
+                color: white !important;
             }
-
+            
+            /* 🟢 링크(a 태그) 텍스트를 흰색으로 강제 적용 */
             a {
-                color: #7a7a7a;
-
+                color: white !important; 
                 &:hover {
-                    color: white;
+                    color: #ddd !important; 
                 }
             }
 
