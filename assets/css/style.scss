@@ -78,7 +78,7 @@ a.navbar-item.is-active {
 }
 
 #about {/* Hero 섹션의 가장 연한 부분(#93c47d)보다 더 연한 색상으로 지정 */
-    background-color: #e8f8ec!important;
+    background-color: #8ff8a9!important;
     .image {
         max-width: 20vmax;
         margin: auto;
@@ -214,7 +214,7 @@ a.navbar-item.is-active {
     #backtotop {
         transition: all 0.25s ease;
         width: 10rem;
-        padding: 0.25rem;
+        padding: 0.5rem;
         margin: auto auto 1rem auto;
         
         /* 🟢 버튼 배경색을 검은색으로 설정 (이미지 c53814.png 반영) */
@@ -225,6 +225,7 @@ a.navbar-item.is-active {
         
         /* 🟢 테두리 완전히 제거 (이미지처럼 테두리 없는 깔끔한 박스) */
         border: none !important;
+        border-radius: 0.25rem; /* 모서리 둥글게 처리 */
         
         &:hover {
             transform: scale(1.05);
