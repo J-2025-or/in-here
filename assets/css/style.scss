@@ -78,7 +78,7 @@ a.navbar-item.is-active {
 }
 
 #about {/* Hero 섹션의 가장 연한 부분(#93c47d)보다 더 연한 색상으로 지정 */
-    background-color: #8ce2ad !important;
+    background-color: #e8f8ec!important;
     .image {
         max-width: 20vmax;
         margin: auto;
@@ -209,14 +209,19 @@ a.navbar-item.is-active {
 
 #footer {
     /* 푸터 전체 배경색 설정 (반드시 중괄호 안에 있어야 합니다) */
-    background-color: #1e8449 !important; 
+    background-color: #222 !important;
     
     #backtotop {
         transition: all 0.25s ease;
         width: 10rem;
         padding: 0.25rem;
         margin: auto auto 1rem auto;
-
+        
+        /* BACK TO TOP 버튼 스타일 복구: 흰색 바탕, 검은색 테두리/글자 */
+        background-color: white !important; 
+        color: black !important;
+        border: 1px solid black !important;
+        
         &:hover {
             transform: scale(1.05);
         }    
@@ -228,6 +233,8 @@ a.navbar-item.is-active {
 
         /* 푸터 컨테이너 내부의 배경색을 진한 초록색으로 강제 설정 (푸터 내부 검은색 문제 해결 시도) */
         background-color: #1e8449 !important;
+        /* 🟢 컨테이너 기본 텍스트 색상을 흰색으로 강제 설정 */
+        color: white !important;
         
         .column {
             display: grid;
